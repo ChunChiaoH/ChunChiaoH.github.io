@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "air" #"aqua", "contrast", "dark", "dirt", "neon", "m
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "Joe Huang — IT Specialist & Data Science Educator"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Joe H"
@@ -265,6 +265,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 # mimic GitHub Pages with --safe
 whitelist:
