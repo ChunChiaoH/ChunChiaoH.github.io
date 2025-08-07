@@ -326,3 +326,6 @@ defaults:
       comments: # true
       share: true
       related: true
+header:
+  pages:
+    - about.md
