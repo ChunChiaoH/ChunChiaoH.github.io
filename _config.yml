@@ -305,6 +305,13 @@ tag_archive:
 #     tag: /tags/:name/
 
 
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name/
+
+
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
@@ -326,6 +333,11 @@ defaults:
       comments: # true
       share: true
       related: true
-header:
-  pages:
-    - about.md
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
